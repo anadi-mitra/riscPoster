@@ -1,8 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{shannon1948communication}
-Claude~E. Shannon.
-\newblock A mathematical theory of communication.
-\newblock {\em Bell System Technical Journal}, 27(3):379--423, 1948.
+\bibitem{10.1145/3337794}
+Manas Thakur and V.~Krishna Nandivada.
+\newblock {PYE: A Framework for Precise-Yet-Efficient Just-In-Time Analyses for
+  Java Programs}.
+\newblock {\em ACM Trans. Program. Lang. Syst.}, 41(3), July 2019.
 
 \end{thebibliography}
