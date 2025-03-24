@@ -42,12 +42,13 @@
 \setlength{\colwidth}{0.45\paperwidth}
 \lstset{
   language=Java,
-  numbers=right,
+%  numbers=right,
   showstringspaces=false
   stringstyle=\ttfamily,
-  basicstyle=\fontsize{26pt}\selectfont\ttfamily,  % Set font size to 14pt
+%  basicstyle=\linespread{1.8}\selectfont\ttfamily,  % Set font size to 14pt
   captionpos=b,
-  backgroundcolor=\color{customblue!10!white},   % Background color
+  basicstyle=\fontsize{27pt}{30pt}\selectfont\ttm,
+%  backgroundcolor=\color{customblue!10!white},   % Background color
   numberstyle=\color{red!50!white},            % Line number color
   keywordstyle=\color{blue}\bfseries,  % Keywords color
   commentstyle=\color{green!50!black}, % Comment color
@@ -146,23 +147,22 @@ PLACID 2025
 \begin{columns}[t]
 \separatorcolumn
 \begin{column}{\colwidth}
-  \vspace{50mm}
+  \vspace{30mm}
   \input{texBlocks/01-WhatIsPolyglotProgramming}
-  \vspace{40mm}
+  \vspace{30mm}
   \input{texBlocks/01.5-Example}
-  \vspace{40mm}
+  \vspace{20mm}
   \input{texBlocks/02-BeAPolyglotProgrammer}
-  \vspace{50mm}
+  \vspace{40mm}
   \input{texBlocks/03-RunPolyglotPrograms}
-  \vspace{50mm}
+  \vspace{30mm}
   \input{texBlocks/04-GraalVMArchitecture}
-  \vspace{50mm}
 \end{column}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \separatorcolumn
 \begin{column}{\colwidth}
 
-  \vspace{50mm}
+  \vspace{30mm}
   \input{texBlocks/01.5.2-escape}
   \vspace{50mm}
   \input{texBlocks/05-ChallengesWithPolyglotPrograms}
